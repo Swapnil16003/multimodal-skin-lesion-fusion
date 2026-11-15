@@ -1,0 +1,7 @@
+model,train,val,test,train-test gap
+img_LR_effnet_b0,0.997,0.501,0.534,0.463
+meta_LR_cons,0.531,0.463,0.465,0.066
+late_meta_LR_cons,0.799,0.571,0.571,0.228
+early_LR_cons,0.823,0.636,0.61,0.213
+concat_NN_cons,0.986,0.601,0.598,0.388
+gated_NN_cons,0.962,0.68,0.629,0.333

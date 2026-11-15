@@ -1,0 +1,12 @@
+item,value
+"EfficientNet-B0 embeddings, all 2298 images (CPU)",126.3
+  -> per image (ms),55.0
+Image-only LR fit (s),0.61
+Metadata-only LR fit (s),0.09
+Early fusion fit: PCA + LR (s),0.17
+"Gated fusion network training, 50 epochs (s)",21.1
+"Concat network training, 50 epochs (s)",27.0
+"Gated head inference (ms per image, excl. backbone)",0.0191
+EfficientNet-B0 backbone parameters,4007548.0
+Gated head parameters,171654.0
+Concat head parameters,168070.0

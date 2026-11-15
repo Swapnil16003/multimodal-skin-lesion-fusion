@@ -1,0 +1,15 @@
+model,group,n,acc,macro_f1,cancer_sens
+img_LR_effnet_b0,age < 50,63,0.698,0.445,0.783
+img_LR_effnet_b0,age 50-69,173,0.561,0.499,0.727
+img_LR_effnet_b0,age >= 70,122,0.582,0.448,0.719
+img_LR_effnet_b0,female,108,0.593,0.446,0.787
+img_LR_effnet_b0,male,141,0.539,0.452,0.694
+img_LR_effnet_b0,Fitzpatrick 1-2,181,0.536,0.393,0.707
+img_LR_effnet_b0,Fitzpatrick 3-6,68,0.632,0.532,0.804
+gated_NN_cons,age < 50,63,0.841,0.53,0.87
+gated_NN_cons,age 50-69,173,0.676,0.574,0.798
+gated_NN_cons,age >= 70,122,0.664,0.512,0.797
+gated_NN_cons,female,108,0.713,0.583,0.827
+gated_NN_cons,male,141,0.624,0.479,0.793
+gated_NN_cons,Fitzpatrick 1-2,181,0.613,0.445,0.779
+gated_NN_cons,Fitzpatrick 3-6,68,0.794,0.685,0.891
